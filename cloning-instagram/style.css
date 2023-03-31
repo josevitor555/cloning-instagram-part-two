@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main header {
+    position: absolute;
+    width: 100%;
+    height: 110px;
+    display: flex;
+}
+main header .logo {
+    width: 150px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main header .logo span {
+    font-size: 1.5rem;
+    font-family: cursive;
+    color: #fff;
+    cursor: pointer;
+}
+main header .horizontal-sroll {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #fff;
+}
+main header .horizontal-sroll .container {
+    width: 100px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4px;
+}
+main header .horizontal-sroll .container .circle-perfil {
+    width: 80px;
+    height: 80px;
+    background-image: linear-gradient( 135deg, #EECE13 10%, #B210FF 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main header .horizontal-sroll .container .circle-perfil .circle#_naruto {
+    width: 74px;
+    height: 74px;
+    background-image: url("story-images/naruto.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+main header .horizontal-sroll .container .circle-perfil .circle#erenyeager {
+    width: 74px;
+    height: 74px;
+    background-image: url("story-images/eren_yeager.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+main header .horizontal-sroll .container .circle-perfil .circle#human_light {
+    width: 74px;
+    height: 74px;
+    background-image: url("story-images/human_light.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+main header .horizontal-sroll .container .circle-perfil .circle#_tohru123 {
+    width: 74px;
+    height: 74px;
+    background-image: url("story-images/kobayashi_sam.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+main header .horizontal-sroll .container .circle-perfil .circle#saitama {
+    width: 74px;
+    height: 74px;
+    background-image: url("story-images/saitama.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+main header .horizontal-sroll .container .circle-perfil .circle#sasuke_uchila {
+    width: 74px;
+    height: 74px;
+    background-image: url("story-images/sasuke_uchila.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+main header .horizontal-sroll .container .circle-perfil .circle#shigeo {
+    width: 74px;
+    height: 74px;
+    background-image: url("story-images/shigeo_kageyama.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+main header .horizontal-sroll .container .circle-perfil .circle#genos555 {
+    width: 74px;
+    height: 74px;
+    background-image: url("story-images/genos.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+main header .horizontal-sroll .container .name-perfil span {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+main section.lateral-menu {
+    position: fixed;
+    bottom: 0;
+    width: 250px;
+    height: 80%;
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+main section.lateral-menu nav a {
+    position: relative;
+    color: #fafafa;
+    font-size: 18px;
+    text-decoration: none;
+    display: table;
+    width: 100%;
+    padding: 10px;
+}
+main section.lateral-menu nav a:hover {
+    background: rgba(255, 255, 255, .1);
+}
+main section.lateral-menu nav .fa-solid {
+    position: relative;
+    width: 40px;
+    height: 30px;
+    font-size: 20px;
+}
+main section.lateral-menu nav li .container {
+    display: flex;
+    align-items: center;
+}
+main section.lateral-menu nav li .personal-perfil {
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    border-radius: 50%;
+}
+main section.lateral-menu nav li .personal-perfil#human_light {
+    background-image: url("personal-image/human_light.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 10px;
+}
+body {
+    position: relative;
+    background-color: #000000;
+}
